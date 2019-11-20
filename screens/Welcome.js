@@ -2,15 +2,14 @@ import React, { Component } from 'react'
 import { Text, StyleSheet, View } from 'react-native'
 
 export default class Welcome extends Component {
-    // static navigationOptions = {
-    //     header: null,
-    // }
+    static navigationOptions = {
+        header: null,
+    }
 
     render() {
         return (
             <View style={styles.container}>
-                <Text> textInComponent </Text>
-                <Text>blab la</Text>
+                <Text>Welcome</Text>
             </View>
         )
     }
